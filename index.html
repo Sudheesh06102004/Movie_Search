@@ -14,13 +14,29 @@
             <button>Search</button>
         </div>
         <ul>
-            <li>Home</li>
-            <li>Movies</li>
-            <li>Watchlist</li>
+            <li><a href="#" onClick="event.preventDefault(); showpage('home')">Home</a></li>
+            <li><a href="#" onClick="event.preventDefault(); showpage('movies')">Movies</a></li>
+            <li><a href="#" onClick="event.preventDefault(); showpage('watchlist')">Watchlist</a></li>
         </ul>
     </header>
 
     <main>
+        <section id="home">
+            <h1>Welcome to Movie Search</h1>
+        </section>
+
+        <section id="movies" style="display: none;">
+            <h1>Movies</h1>
+        </section>
+
+        <section id="watchlist" style="display: none;">
+            <h1>Watchlist</h1>
+            <p>Your saved movies will appear here.</p>
+            <div id="watchlist-container">
+                <!-- Watchlist items will be dynamically added here -->
+
+            </div>
+        </section>
 
     </main>
 

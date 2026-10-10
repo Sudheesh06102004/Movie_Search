@@ -27,6 +27,10 @@ header ul li{
     padding: 10px;
     border-radius: 5px;
 }
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
 header ul li:hover{
     background-color: #003366;
 }
