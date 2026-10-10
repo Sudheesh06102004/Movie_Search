@@ -39,6 +39,11 @@ header ul li:hover{
     width: 700px;
     padding-right: 80px;
     box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search-box input:focus{
+    outline: none;
 }
 
 .search-box{
