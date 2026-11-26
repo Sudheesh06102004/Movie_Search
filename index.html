@@ -4,65 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Search</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Movie Search</h1>
-        <div class="search-box">
-            <input type="text" placeholder="Search movies...">
-            <button>Search</button>
-        </div>
-        <ul>
-            <li><a href="#" onClick="event.preventDefault(); showpage('home')">Home</a></li>
-
-            <li><a href="#" onClick="event.preventDefault(); showpage('movies')">Movies</a></li>
-
-            <li><a href="#" onClick="event.preventDefault(); showpage('watchlist')">Watchlists</a></li>
-        </ul>
+        <navbar>
+            
+        </navbar>
     </header>
 
-    <div id="layout">
-        <aside>
-            <h3>Browse</h3>
-            <ul class="category-list">
-                <li><a href="#" data-category="popular">Popular</a></li>
-                <li><a href="#" data-category="upcoming">Upcoming</a></li>
-                <li><a href="#" data-category="top_rated">Top Rated</a></li>
-            </ul>
 
-            <h3>Genres</h3>
-            <ul class="genre-list" id="genre-list"></ul>
-        </aside>
+    <main>
+        <div>
+            <section id="sidebar">
 
+            </section>
 
-        <main>
-        <section id="home">
-            <h1>Welcome to Movie Search</h1>
-            
-        </section>
+            <section id="main-container">
 
-        <section id="movies" style="display: none;">
-            <h1 id="movies-title">Movies</h1>
-            <div id="movies-container"></div>
-        </section>
-
-        <section id="watchlist" style="display: none;">
-            <h1>Watchlist</h1>
-            <p>Your saved movies will appear here.</p>
-            <div id="watchlist-container">
-
-            </div>
-        </section>
-
+            </section>
+        </div>
     </main>
 
-
-    </div>
 
     <footer>
 
     </footer>
 </body>
-<script src="script.js"></script>
 </html>
