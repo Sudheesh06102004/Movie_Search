@@ -1,0 +1,34 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #0b4d70;
+        color: white;
+}
+
+.search-box input {
+        padding: 10px;
+        width: 550px;
+        border-radius: 3px;
+        border: none;
+}
+
+.search-box button {
+        padding: 10px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+}
+
+.nav-links {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+}
