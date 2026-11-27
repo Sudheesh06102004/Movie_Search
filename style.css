@@ -53,3 +53,44 @@
 .nav-links a:hover {
         color: orange;
 }
+
+
+.layout {
+    display: flex;
+}
+
+#sidebar {
+    width: 220px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #0b4d70;
+}
+
+.sidebar-title {
+    margin: 15px 0 8px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sidebar-links {
+    list-style: none;
+}
+
+.sidebar-links a {
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+}
+
+.sidebar-links a:hover {
+    background-color: rgba(255, 166, 0, 0.747);
+    color: white;
+}
+
+#main-container {
+    flex: 1;
+    padding: 20px;
+}
