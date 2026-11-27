@@ -11,6 +11,7 @@
         padding: 15px 30px;
         background-color: #0b4d70;
         color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .logo:hover {
@@ -86,8 +87,8 @@
 }
 
 .sidebar-links a:hover {
-    background-color: rgba(255, 166, 0, 0.747);
-    color: white;
+    background-color: #106c9d49;
+    color: orange;
 }
 
 #main-container {
