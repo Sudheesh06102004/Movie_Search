@@ -13,11 +13,17 @@
         color: white;
 }
 
+.logo:hover {
+        color: orange;
+}
+
 .search-box input {
         padding: 10px;
         width: 550px;
         border-radius: 3px;
         border: none;
+        outline: none;
+        font-size: 16px;
 }
 
 .search-box button {
@@ -25,10 +31,25 @@
         cursor: pointer;
         border: none;
         border-radius: 3px;
+        font-size: 16px;
+        background-color: white;
 }
 
+.search-box button:hover {
+        background-color: orange;
+
+}
 .nav-links {
         display: flex;
         list-style: none;
         gap: 20px;
+}
+
+.nav-links a {
+        color: white;
+        text-decoration: none;
+}
+
+.nav-links a:hover {
+        color: orange;
 }
