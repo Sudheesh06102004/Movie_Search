@@ -95,3 +95,55 @@
     flex: 1;
     padding: 20px;
 }
+
+
+.featured {
+    background-color: #0b4d70;
+    color: white;
+    padding: 60px 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.featured h1 {
+    margin: 10px 0;
+}
+
+.featured p {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.section-title {
+    margin: 30px 0 15px;
+    color: #0b4d70;
+}
+
+.movie-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}   
+
+.movie-card img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.movie-title {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.movie-info {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: gray;
+}
